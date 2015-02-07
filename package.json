@@ -1,0 +1,45 @@
+{
+  "name": "omniscient-starter-pack",
+  "version": "1.0.0",
+  "description": "omniscient+immstruct es6 starter pack",
+  "main": "hot-reload-server.js",
+  "dependencies": {
+    "6to5": "^3.4.1",
+    "6to5-core": "^3.4.1",
+    "6to5-loader": "^3.0.0",
+    "6to5-runtime": "^3.4.1",
+    "autoprefixer-loader": "^1.1.0",
+    "css-loader": "^0.9.1",
+    "less": "^2.3.1",
+    "less-loader": "^2.0.0",
+    "omniscient": "^2.1.0",
+    "react": "^0.12.2",
+    "react-hot-loader": "^1.1.4",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "node hot-reload-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omniscient/omniscient-starter-pack"
+  },
+  "keywords": [
+    "omniscient",
+    "immstruct",
+    "es6",
+    "starter",
+    "pack",
+    "webpack",
+    "hot-reload"
+  ],
+  "author": "@torgeir",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/omniscient/omniscient-starter-pack/issues"
+  },
+  "homepage": "https://github.com/omniscient/omniscient-starter-pack"
+}

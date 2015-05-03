@@ -22,8 +22,7 @@ module.exports = {
         exclude: /node_modules/,
         loaders: [
           'react-hot',
-          '6to5-loader'
-          //'6to5-loader?experimental&optional=selfContained' // http://6to5.org/docs/usage/experimental/
+          'babel-loader'
         ]
       },
       {

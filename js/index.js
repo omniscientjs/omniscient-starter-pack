@@ -9,10 +9,12 @@ let data = immstruct({
   counter: 0
 });
 
+let el = document.querySelector('#app');
+
 let render = () =>
   React.render(
     App({ counter: data.cursor('counter') }),
-    document.body);
+    el);
 
 render();
 data.on('swap', render);

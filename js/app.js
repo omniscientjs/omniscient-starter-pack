@@ -17,7 +17,7 @@ export default component('App', ({counter}) =>
   // import React from 'react';
 
 
-// enable 6to5-loader?experimental to use generators etc.
+// enable 6to5-loader?experimental in webpack.config.js and 'import "babel/polyfill"' to use generators
 // export function * counter () {
 //   var n = 0;
 //   while (true) yield n++;

@@ -2,7 +2,7 @@
 
 - omniscient
 - immstruct
-- 6to5
+- babel
 - webpack
 - react-hot-reload
 - less

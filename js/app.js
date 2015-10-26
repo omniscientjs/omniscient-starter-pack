@@ -1,5 +1,5 @@
 import component from 'omniscient';
-import {DOM} from 'react/addons';
+import {DOM} from 'react';
 let {div} = DOM;
 
 export default component('App', ({counter}) =>
@@ -15,10 +15,3 @@ export default component('App', ({counter}) =>
   // just remember to:
   //
   // import React from 'react';
-
-
-// enable 6to5-loader?experimental in webpack.config.js and 'import "babel/polyfill"' to use generators
-// export function * counter () {
-//   var n = 0;
-//   while (true) yield n++;
-// }
